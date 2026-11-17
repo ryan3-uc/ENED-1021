@@ -38,10 +38,9 @@ while d < 17:
 
 if d > 21:
     print("Dealer busts, Player wins!")
-    print(f"Player: {p} | Dealer: {d}")
 elif d < p:
     print("Player wins!")
-    print(f"Player: {p} | Dealer: {d}")
 else:
     print("Dealer wins!")
-    print(f"Player: {p} | Dealer: {d}")
+    
+print(f"Player: {p} | Dealer: {d}")
